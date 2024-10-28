@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="styles/styles.css">
     <!-- daisyUi cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -100,9 +102,9 @@
         </div>
     </header>
 
-    <main class="container mx-auto mt-24">
+    <main class="container mx-auto ">
         <!-- professional hockeys club section -->
-        <section>
+        <section class="mt-24">
             <!-- text area -->
             <div class="text-center space-y-6 flex flex-col items-center justify-center border-y-2 border-dashed py-8">
                 <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
@@ -113,32 +115,40 @@
             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div class="flex flex-col items-center justify-center space-y-3 py-6">
                     <div class="relative ">
-                        <div class="z-50  radial-progress text-[#FF4240] " style="--value:87;" role="progressbar">87%</div>
-                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                        <div class="z-50  radial-progress text-[#FF4240] " style="--value:87;" role="progressbar"><span
+                                class="text-black text-xl font-medium ">87%</span></div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;"
+                            role="progressbar"></div>
                     </div>
                     <h4 class="text-xl font-semibold">Prayer Facility</h4>
                     <p class="opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="flex flex-col items-center justify-center space-y-3 py-6">
                     <div class="relative ">
-                        <div class="z-50  radial-progress text-[#49D293] " style="--value:95;" role="progressbar">95%</div>
-                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                        <div class="z-50  radial-progress text-[#49D293] " style="--value:95;" role="progressbar"><span
+                                class="text-black text-xl font-medium ">95%</span></div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;"
+                            role="progressbar"></div>
                     </div>
                     <h4 class="text-xl font-semibold">Experienced Coach</h4>
                     <p class="opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="flex flex-col items-center justify-center space-y-3 py-6">
                     <div class="relative ">
-                        <div class="z-50  radial-progress text-[#FFB546] " style="--value:90;" role="progressbar">90%</div>
-                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                        <div class="z-50  radial-progress text-[#FFB546] " style="--value:90;" role="progressbar"><span
+                                class="text-black text-xl font-medium ">90%</span></div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;"
+                            role="progressbar"></div>
                     </div>
                     <h4 class="text-xl font-semibold">Senior Player</h4>
                     <p class="opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="flex flex-col items-center justify-center space-y-3 py-6">
                     <div class="relative ">
-                        <div class="z-50  radial-progress text-[#4C8DF1] " style="--value:80;" role="progressbar">80%</div>
-                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                        <div class="z-50  radial-progress text-[#4C8DF1] " style="--value:80;" role="progressbar"><span
+                                class="text-black text-xl font-medium ">80%</span></div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;"
+                            role="progressbar"></div>
                     </div>
                     <h4 class="text-xl font-semibold">Training Ground</h4>
                     <p class="opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -148,7 +158,50 @@
         </section>
 
         <!-- Program sections  -->
-         
+        <section class="mt-24">
+            <!-- text area -->
+            <div class="text-center space-y-6 flex flex-col items-center justify-center border-y-2 border-dashed py-8">
+                <h2 class="text-4xl font-extrabold">Program Sections</h2>
+                <p class=" opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class=" junior-program w-full flex flex-col justify-end items-center px-10 pt-24 pb-10  rounded-xl">
+                    <div class="space-y-4">
+                        <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
+                        <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                            elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn btn-error text-white font-medium">Register Now!</button>
+                    </div>
+                </div>
+                <div class=" teenager-program w-full flex flex-col justify-end items-center px-10 pt-24 pb-10  rounded-xl">
+                    <div class="space-y-4">
+                        <h4 class="text-3xl font-extrabold text-white">Teenager Program</h4>
+                        <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                            elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn btn-error text-white font-medium">Register Now!</button>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 professional-program w-full flex flex-col justify-end items-start px-10 pt-52 pb-10 rounded-xl ">
+                    <div class="space-y-4">
+                        <h4 class="text-3xl font-extrabold text-white">Professional Program</h4>
+                        <p class="font-medium text-white w-1/2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                            elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <button class="btn btn-error text-white font-medium">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
     </main>
 
     <footer></footer>
